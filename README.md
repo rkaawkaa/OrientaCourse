@@ -46,7 +46,7 @@ Ce projet a été developpé par Mathieu COLLARD et Robin KAWKA dans un cadre un
   <img src="https://github.com/rkaawkaa/OrientaCourse/assets/88223901/8d59584b-fb60-44c0-8522-248ea5ec8f3b" height="384">
 
     
-7. La map s'ouvre. On voit où sont les prochaines balises. Il faut être dans un rayon de 20 mètres pour qu'elles s'activent et passent du orange au vert.
+7. La map s'ouvre. On voit où sont les prochaines balises. Il faut être dans un rayon de 20 mètres pour qu'elles s'activent et passent du orange au vert.<br>
    <img src="https://github.com/rkaawkaa/OrientaCourse/assets/88223901/77c634d1-cf8c-4b6b-90f7-f16ba926c75a" height="384"><br><br>
    <img src="https://github.com/rkaawkaa/OrientaCourse/assets/88223901/943b7fdb-642f-454e-9992-405dc54ef7dc" height="384">
 
