@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+    <TextView
+style="@style/BigTitle"
+        android:text="@string/title_choose_mode"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_mode_course"
+        style="@style/cardViewCustom"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/text_mode_course_title"
+                android:text="Mode Grande Course"
+                style="@style/cardViewTitle"
+
+ />
+            <TextView
+                android:id="@+id/text_mode_course_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/orange_500"
+                android:text="Toutes les balises sont affichées dès le départ." />
+            <TextView
+                android:id="@+id/text_mode_course_difficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Difficulté: Facile" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_mode_etoile"
+        style="@style/cardViewCustom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+            <TextView
+                android:id="@+id/text_mode_etoile_title"
+                style="@style/cardViewTitle"
+                android:text="Mode Etoile"
+                 />
+            <TextView
+                android:id="@+id/text_mode_etoile_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/orange_500"
+                android:text="Les balises sont affichées les unes après les autres." />
+            <TextView
+                android:id="@+id/text_mode_etoile_difficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Difficulté: Moyenne" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_mode_papillon"
+        style="@style/cardViewCustom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/text_mode_papillon_title"
+                style="@style/cardViewTitle"
+                android:text="Mode Papillon"
+                 />
+            <TextView
+                android:id="@+id/text_mode_papillon_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/orange_500"
+                android:text="Les balises sont affichées 3 par 3 et doivent être activées dans l'ordre." />
+            <TextView
+                android:id="@+id/text_mode_papillon_difficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Difficulté: Difficile" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">OrientaCourse</string>
+    <string name="message_bienvenue">Bienvenue sur OrientaCourse, la meilleure application de courses d\'orientation.</string>
+    <string name="demande_geolocalisation">Activer la géolocalisation</string>
+    <string name="besoin_geolocalisation_message">OrientaCourse est une application de course d\'orientation. Par conséquent, pour pouvoir profiter des diverses courses d\'orientation que nous avez crées pour vous, vous devez autoriser cette application à obtenir votre géolocalisation.</string>
+    <string name="bonjour">Cher(e) coureur(se)</string>
+    <string name="ask_name">Veuillez entrez votre prénom s\'il vous plait</string>
+    <string name="prenom">Prénom</string>
+    <string name="demarrer">Démarrer</string>
+    <string name="title_choose_mode">Choisissez le mode qui vous plaît le plus:</string>
+    <string name="titile_choose_course">Choisissez le parcours qui vous donne le plus envie:</string>
+    <string name="recapitulatif_course">Récapitulatif de votre choix:</string>
+    <string name="mapbox_access_token">sk.eyJ1IjoibWF0aGlldWNvbGxhcmQiLCJhIjoiY2xhN3h6cTFlMGVtMjNwbXF2cjVpdDM1dSJ9.cNewOEPOaHAEFQUvHGIZ-g</string>
+</resources>
